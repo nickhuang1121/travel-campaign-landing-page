@@ -1,0 +1,43 @@
+body { background: #00c0ff;  }
+#mtkContainer { background: url(../images/header_pc.jpg) top center no-repeat; }
+#mtkContainer * { vertical-align: top; box-sizing: border-box; }
+header.header { margin: 0;padding:0; height: 550px; }
+h1 { display: none; }
+nav { padding: 0 0 50px 0; margin: 0 auto; width: 90%; max-width: 1267px; text-align: left; }
+#mtkContainer nav img {  padding: 0; margin: 0; vertical-align: bottom; transition: .5s ; }
+#mtkContainer nav img:hover { transform: scale(1.05); }
+
+h2 { padding-top: 40px; font: 38px/1em "arial","微軟正黑體"; color:#fff; text-align: center;}
+p {  font: 14px/1em "arial","微軟正黑體"; color:#fff; text-align: center; letter-spacing: 2px;}
+
+.group-type-ph { margin: 0 auto; padding: 40px 0 120px 0; width: 90%; max-width: 1200px; text-align: center;  }
+.group-type-ph .ph { display: inline-block; margin: 0 10px; padding: 0 0 0px 0; 
+	width: 240px; transition: .5s; background:#fff; border:3px solid #000; box-shadow: 15px 15px 0 rgba(0,0,0,0.2); }
+.group-type-ph .ph:hover { transform: scale(0.95); box-shadow: 5px 15px 0 rgba(0,0,0,0.05); }
+.group-type-ph .ph img { width: 100%; }
+
+.group-type-ph .ph-title { padding: 5px 0; background:#000;font: 18px/1em "arial","微軟正黑體"; color: #fff; }
+.group-type-ph .ph-detail { padding: 10px 0; font: 14px/1.4em "arial","微軟正黑體"; color: #000; }
+
+.group-type-ph .price { display: block; width: 100%; font: 14px/2em "arial","微軟正黑體"; color:#fff; background-color: red }
+.group-type-ph .price span { padding: 0;margin: 0; font-size: 22px; }
+
+.bg1 { background:url(../images/bg1.jpg) top center repeat-y; }
+.bg2 { background:url(../images/bg2.jpg) top center repeat-y; }
+
+@media only screen and (max-width: 1000px){
+.c23ContentBase > div { display: block;  }	
+.c23ContentBase > .photo { padding: 5% 0; width: 100%; }
+
+.c23ContentBase > .c23Area { padding: 5% 0;width: 100%; }
+
+}
+
+
+@media only screen and (max-width: 1200px){
+	#mtkContainer { background: none;}
+	header.header { margin: 0;padding:0; height:auto; }
+	h1 { display: block; }
+	h1 img { width: 100%; }
+}
+
